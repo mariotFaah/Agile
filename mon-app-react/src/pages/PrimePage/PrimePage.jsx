@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Modal from '../../components/ui/Modal/Modal';
 import './PrimePage.css';
-import Navbar from "../../components/ui/Navbar/Navbar";
 
 const PrimePage = () => {
   const [primes, setPrimes] = useState([]);
@@ -70,7 +69,6 @@ const PrimePage = () => {
 
   return (
     <div className="prime-page">
-    <Navbar />
 	  <h2>Liste des primes</h2>
       <button onClick={() => openModal('add')} className="add-btn">Ajouter une prime</button>
       <table>

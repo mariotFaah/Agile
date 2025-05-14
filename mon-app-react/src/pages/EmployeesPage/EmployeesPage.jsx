@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Modal from '../../components/ui/Modal/Modal';
 import './EmployeesPage.css';
-import Navbar from "../../components/ui/Navbar/Navbar";
 
 const EmployeesPage = () => {
   const [employees, setEmployees] = useState([]);
@@ -70,7 +69,6 @@ const EmployeesPage = () => {
 
   return (
     <div className="employees-page">
-	  <Navbar/>
       <h2>Liste des employés</h2>
       <button onClick={() => openModal('add')} className="add-btn">Créer un nouvel employé</button>
       <table>

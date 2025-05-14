@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { getAllBulletins, deleteBulletin } from '../../services/bulletinService';
 import Modal from '../../components/ui/Modal/Modal';
 import './BulletinPage.css';
-import Navbar from "../../components/ui/Navbar/Navbar";
 
 const BulletinPage = () => {
   const [bulletins, setBulletins] = useState([]);
@@ -47,7 +46,6 @@ const BulletinPage = () => {
 
   return (
     <div className="bulletin-page">
-      <Navbar/>
       <h2>Liste des Bulletins de Paie</h2>
       <table>
         <thead>

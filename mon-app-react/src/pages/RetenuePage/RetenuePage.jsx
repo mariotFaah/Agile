@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Modal from '../../components/ui/Modal/Modal';
 import './RetenuePage.css';
-import Navbar from "../../components/ui/Navbar/Navbar";
 
 const RetenuePage = () => {
   const [retenues, setRetenues] = useState([]);
@@ -71,7 +70,6 @@ const RetenuePage = () => {
 
   return (
     <div className="retenue-page">
-	<Navbar/>
 	  <h2>Liste des retenues</h2>
       <button onClick={() => openModal('add')} className="add-btn">Créer une nouvelle retenue</button>
       <table>

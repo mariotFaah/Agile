@@ -57,5 +57,8 @@ npm run dev
 Ouvrez votre navigateur et accédez à :
 
 http://localhost:5173
-
+# farany kaikany
+efa misy dossier database ao am backend raha averinao lay izy 
+adika fotsiny reo requete reo
+# Aza adino ny miverifier anlay resaka mot de passe sy lay resaka localhost anlay base de donnee sendra tsy tandritandrina okay
 Mazotoa

@@ -1,0 +1,29 @@
+/* src/pages/BulletinPage/BulletinPage.css */
+.bulletin-page {
+  padding: 20px;
+}
+
+.bulletin-page h2 {
+  margin-bottom: 20px;
+}
+
+.bulletin-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bulletin-page th, .bulletin-page td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.bulletin-page button {
+  margin: 5px;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+

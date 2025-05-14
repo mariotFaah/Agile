@@ -1,0 +1,15 @@
+# Ignorer les dossiers node_modules dans tous les sous-dossiers
+**/node_modules
+
+# Ignorer les fichiers log
+*.log
+
+# Ignorer les dossiers de build de Vite
+dist/
+
+# Ignorer les dossiers de build de Node.js
+build/
+
+# Ignorer les fichiers environnement
+.env
+.env.local
